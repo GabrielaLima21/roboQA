@@ -8,8 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 const configuration = new Configuration({
-  apiKey: "", //api voce gera no proprio site da open ai
- // node index.js - para rodar o backend sempre
+  apiKey: "", 
 });
 
 const openai = new OpenAIApi(configuration);
